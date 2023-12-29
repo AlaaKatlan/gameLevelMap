@@ -73,7 +73,7 @@ class _MapVerticalExampleState extends State<MapVerticalExample> {
   List<PointModel> points = [];
 
   void fillTestData() {
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i < 30; i++) {
       points.add(PointModel(100, testWidget(i)));
     }
   }
